@@ -1,0 +1,131 @@
+.game-headline {
+    position:absolute;
+	left:0px;
+	top:2708px;
+	width:1400px;
+    height:101px;
+    background: url("../backgrounds/game-headline.png");
+        
+    h1 {
+        text-align: center;
+        vertical-align: middle;
+        line-height: 20px;
+        font-family : Broadway;
+        font-size : 45pt;
+        color: #00d07a;
+    }
+}
+
+.game {
+    position:absolute;
+	left:0px;
+	top:2808px;
+	width:1400px;
+    height:299px;
+    background: url("../backgrounds/game.png");
+}
+
+.sound-image {
+    float: left;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-right: 75px;
+    cursor:pointer;
+}
+
+.game-description {
+    float:left;
+    height: 200px;
+    width: 400px;
+    font-size: 17pt;
+    color: white;
+    margin-top: 75px;
+    
+    p {
+        text-align: center;
+        font-family : Broadway;
+    }
+}
+
+.hero-images-container {
+    float:left;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+
+.canvas-container {
+    display:none;
+    float:left;
+    margin-left: 130px;
+    margin-top: 90px;
+}
+
+.heroes-first-row {
+    clear: both;
+}
+
+.heroes-second-row {
+    clear: both;
+}
+
+.heroes-third-row {
+    clear: both;
+}
+
+.hero-antimage {
+    float:left;
+    cursor:pointer;
+}
+
+.hero-luna {
+    float:left;
+    margin-left: 50px;
+    cursor:pointer;
+}
+
+.hero-spiritbreaker {   
+    float:left;
+    margin-left: 50px;
+    cursor:pointer;
+}
+
+.hero-crystalmaiden {
+    margin-top: 10px;
+    float:left;
+    cursor:pointer;
+}
+
+.hero-omniknight {
+    margin-top: 10px;
+    float: left;
+    margin-left: 50px;
+    cursor:pointer;
+}
+
+.hero-templarassassin {
+    margin-top: 10px;
+    float: left;
+    margin-left: 50px;
+    cursor:pointer;
+}
+
+.hero-kunkka {
+    margin-top: 10px;
+    float: left;
+    cursor:pointer;
+}
+
+.hero-queenofpain {
+    margin-top: 10px;
+    float: left;
+    margin-left: 50px;
+    cursor:pointer;
+}
+
+.hero-zeus {
+    margin-top: 10px;
+    float: left;
+    margin-left: 50px;
+    cursor:pointer;
+}

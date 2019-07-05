@@ -1,0 +1,29 @@
+
+.home-and-about {
+	position:absolute;
+	left:0px;
+	top:203px;
+	width:1400px;
+    height:597px;
+    background: url("../backgrounds/home-and-about.png");
+}
+
+.cover-photo {
+    margin-top: 20px;
+    margin-left: 295px;
+}
+
+.about-text {
+    width:1340px;
+    height:220px;
+    font-size: 17pt;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 20px;
+    
+    p {
+        text-align: center;
+        font-family : Broadway;
+    }
+}

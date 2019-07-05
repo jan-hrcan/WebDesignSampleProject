@@ -1,0 +1,135 @@
+<style type="text/css">
+<!--
+
+div.Table_01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1400px;
+	height:4000px;
+}
+
+div.logo-and-main-menu {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1400px;
+	height:203px;
+	background: url("images/logo-and-main-menu.png");
+}
+
+div.home-and-about {
+	position:absolute;
+	left:0px;
+	top:203px;
+	width:1400px;
+	height:597px;
+}
+
+div.teams-headline {
+	position:absolute;
+	left:0px;
+	top:800px;
+	width:1400px;
+	height:100px;
+}
+
+div.teams {
+	position:absolute;
+	left:0px;
+	top:900px;
+	width:1400px;
+	height:450px;
+}
+
+div.prize-pool-headline {
+	position:absolute;
+	left:0px;
+	top:1350px;
+	width:1400px;
+	height:100px;
+}
+
+div.index-06 {
+	position:absolute;
+	left:0px;
+	top:1450px;
+	width:1400px;
+	height:1px;
+}
+
+div.prize-pool {
+	position:absolute;
+	left:0px;
+	top:1451px;
+	width:1400px;
+	height:579px;
+}
+
+div.twitch-stream-headline {
+	position:absolute;
+	left:0px;
+	top:2030px;
+	width:1400px;
+	height:100px;
+}
+
+div.index-09 {
+	position:absolute;
+	left:0px;
+	top:2130px;
+	width:1400px;
+	height:1px;
+}
+
+div.twitch-stream-and-chat {
+	position:absolute;
+	left:0px;
+	top:2131px;
+	width:1400px;
+	height:579px;
+}
+
+div.game-headline {
+	position:absolute;
+	left:0px;
+	top:2710px;
+	width:1400px;
+	height:101px;
+}
+
+div.game {
+	position:absolute;
+	left:0px;
+	top:2811px;
+	width:1400px;
+	height:299px;
+}
+
+div.find-us-headline {
+	position:absolute;
+	left:0px;
+	top:3110px;
+	width:1400px;
+	height:100px;
+}
+
+div.find-us {
+	position:absolute;
+	left:0px;
+	top:3210px;
+	width:1400px;
+	height:609px;
+}
+
+div.footer {
+	position:absolute;
+	left:0px;
+	top:3819px;
+	width:1400px;
+	height:181px;
+}
+
+
+-->
+</style>

@@ -1,0 +1,47 @@
+.footer {
+    position:absolute;
+	left:0px;
+	top:3813px;
+	width:1400px;
+    height:181px;
+    background: url("../backgrounds/footer.png");
+}
+
+.footer-logo-div {
+    float:left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.purpose-text {
+    width: 500px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    float:left;
+    text-align: center;
+    vertical-align: middle;
+    font-family : Broadway;
+    font-size : 30pt;
+    color: white;
+}
+
+.social-icons {
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.youtube {
+    float: left;
+}
+
+.twitter {
+    float: left;
+    margin-left: 20px;
+}
+
+.facebook {
+    float: left;
+    margin-left: 20px;
+}

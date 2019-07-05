@@ -1,0 +1,989 @@
+@media screen and (max-width: 700px) 
+{ 
+    .body-class {
+        margin: 0 0;
+        margin-left: 5%;
+        padding: 0;
+        background-image: url('../backgrounds/carina_nebula.jpg');
+    }
+
+    .responsive-main-menu {
+        z-index:1;
+        display: flex;
+        position:absolute;
+        left:0px;
+        top:0px;
+        width:650px;
+        height:152px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-main-menu.png");
+    
+        .menu-opener {
+            margin-top: 25px;
+            margin-left: 180px;
+        }
+    }
+
+    .responsive-menu-items {
+        display:none;
+        position:absolute;
+        left:315px;
+        top:0px;
+        width:335px;
+        height:500px;
+        background-image: url('../images/responsive/menu.png');
+        z-index:2;
+        float: left;
+            
+            ul
+            {
+                list-style-type: none; 
+                margin-left: -20px;
+                margin-top: 50px;
+                li
+                {
+                    display: inline;   
+              
+                    a 
+                    {
+                        display: block;
+                        color: white;
+                        text-align: center;
+                        padding: 16px 16px;
+                        text-decoration: none;
+                        font-family : Broadway;
+                        font-size : 20pt;
+                        height: 60%;
+                        border-bottom: 5px solid #e6d300;
+                    }
+		
+                }
+            }
+    }
+
+    .logo-and-main-menu {
+        display:none;
+    }
+
+    .responsive-home-and-about {
+        position:absolute;
+        left:0px;
+        top:152px;
+        width:650px;
+        height:352px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-home-and-about.png");
+
+        .cover-photo {
+            margin-top: 10px;
+            margin-left: 22%;
+        }
+
+        .about-text {
+            width:600px;
+            height:220px;
+            font-size: 10pt;
+            color: white;
+            text-align: justify;
+            text-justify: inter-word;
+            margin-left: 20px;
+            
+            p {
+                text-align: center;
+                font-family : Broadway;
+            }
+        }
+    }
+
+    .home-and-about {
+        display: none;
+    }
+    
+    .responsive-teams-headline {
+        position:absolute;
+        left:0px;
+        top:504px;
+        width:650px;
+        height:71px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-teams-headline.png");
+
+        h1 {
+            text-align: center;
+            vertical-align: middle;
+            line-height: 20px;
+            font-family : Broadway;
+            font-size : 25pt;
+            color: #00d07a;
+        }
+    }
+
+    .teams-headline {
+        display: none;
+    }
+    
+    .responsive-teams {
+        position:absolute;
+        left:0px;
+        top:575px;
+        width:650px;
+        height:790px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-teams.png");
+
+        .team-1 {
+            float: left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-2 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-3 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-4 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-5 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-6 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-7 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-8 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-9 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-10 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-11 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-12 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-13 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-14 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-15 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-16 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-17 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    
+        .team-18 {
+            float:left;
+            margin-top: 5px;
+            margin-left: 20px;
+        }
+    }
+
+    .teams {
+        display: none;
+    }
+    
+    .responsive-prize-pool-headline {
+        position:absolute;
+        left:0px;
+        top:1365px;
+        width:650px;
+        height:80px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-prize-pool-headline.png");
+
+        h1 {
+            text-align: center;
+            vertical-align: middle;
+            line-height: 30px;
+            font-family : Broadway;
+            font-size : 25pt;
+            color: #00d07a;
+        }
+    }
+
+    .prize-pool-headline {
+        display: none;
+    }
+    
+    .responsive-prize-pool {
+        position:absolute;
+        left:0px;
+        top:1445px;
+        width:650px;
+        height:737px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-prize-pool.png");
+
+        .first-place-prize {
+            h1 {
+                text-align: center;
+                vertical-align: middle;
+                font-size: 45pt;
+                color: white;
+                font-family : Broadway;
+                margin-top: 0px;
+            }
+            
+            p {
+                text-align: center;
+                vertical-align: middle;
+                font-size: 20pt;
+                color: #e6d300;
+                font-family : Broadway;
+                margin-top: -50px;
+            }
+        }
+
+        .second-place-prize {
+            h1 {
+                text-align: center;
+                vertical-align: middle;
+                font-size: 30pt;
+                color: white;
+                font-family : Broadway;
+                margin-top: -30px;
+            }
+            p {
+                text-align: center;
+                vertical-align: middle;
+                font-size: 20pt;
+                color: #e6d300;
+                font-family : Broadway;
+                margin-top: -35px;
+            }
+        }
+
+        .third-place-prize {
+            h1 {
+                text-align: center;
+                vertical-align: middle;
+                font-size: 30pt;
+                color: white;
+                font-family : Broadway;
+                margin-top: -30px;
+            }
+            p {
+                text-align: center;
+                vertical-align: middle;
+                font-size: 20pt;
+                color: #e6d300;
+                font-family : Broadway;
+                margin-top: -35px;
+            }
+        }
+
+        .fourth-place-prize {
+            h1 {
+                text-align: center;
+                vertical-align: middle;
+                font-size: 30pt;
+                color: white;
+                font-family : Broadway;
+                margin-top: -30px;
+            }
+            p {
+                text-align: center;
+                vertical-align: middle;
+                font-size: 20pt;
+                color: #e6d300;
+                font-family : Broadway;
+                margin-top: -35px;
+            }
+        }
+
+        .fifth-row-place-prizes {
+            h1 {
+                float: left;
+                text-align: center;
+                vertical-align: middle;
+                font-size: 20pt;
+                color: white;
+                font-family : Broadway;
+                margin-top: -5px;
+                margin-left: 100px;
+            }
+        }
+        
+        .fifth-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 19%;      
+            }
+        }
+        
+        .sixth-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 20%;      
+            }
+        }
+
+        .sixth-row-place-prizes {
+            h1 {
+                float: left;
+                text-align: center;
+                vertical-align: middle;
+                font-size: 20pt;
+                color: white;
+                font-family : Broadway;
+                margin-top: -5px;
+                margin-left: 120px;
+            }
+        }
+        
+        .seventh-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 17%;      
+            }
+        }
+        
+        .eighth-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 17%;      
+            }
+        }
+
+        .seventh-row-place-prizes {
+            h1 {
+                float: left;
+                text-align: center;
+                vertical-align: middle;
+                font-size: 20pt;
+                color: white;
+                font-family : Broadway;
+                margin-top: -5px;
+                margin-left: 120px;
+            }
+        }
+        
+        .ninth-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 19%;      
+            }
+        }
+        
+        .tenth-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 19%;      
+            }
+        }
+
+        .eighth-row-place-prizes {
+                h1 {
+                    float: left;
+                    text-align: center;
+                    vertical-align: middle;
+                    font-size: 20pt;
+                    color: white;
+                    font-family : Broadway;
+                    margin-top: -5px;
+                    margin-left: 120px;
+                }
+            }
+            
+            .eleventh-p {
+                p {       
+                    margin-top: -25px;
+                    float: left;
+                    font-size: 15pt;
+                    color:  #e6d300;
+                    font-family : Broadway;
+                    margin-left: 17%;      
+                }
+            }
+            
+            .twelfth-p {
+                p {       
+                    margin-top: -25px;
+                    float: left;
+                    font-size: 15pt;
+                    color:  #e6d300;
+                    font-family : Broadway;
+                    margin-left: 15%;      
+                }
+            }
+        
+        .ninth-row-place-prizes {
+            h1 {
+                float: left;
+                text-align: center;
+                vertical-align: middle;
+                font-size: 20pt;
+                color: white;
+                font-family : Broadway;
+                margin-top: -5px;
+                margin-left: 119px;
+            }
+        }
+        
+        .thirteenth-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 19.5%;      
+            }
+        }
+        
+        .fourteenth-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 22%;      
+            }
+        }
+
+        .tenth-row-place-prizes {
+            h1 {
+                float: left;
+                text-align: center;
+                vertical-align: middle;
+                font-size: 20pt;
+                color: white;
+                font-family : Broadway;
+                margin-top: -5px;
+                margin-left: 119px;
+            }
+        }
+        
+        .fifteenth-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 19.5%;      
+            }
+        }
+        
+        .sixteenth-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 22%;      
+            }
+        }
+
+        .eleventh-row-place-prizes {
+            h1 {
+                float: left;
+                text-align: center;
+                vertical-align: middle;
+                font-size: 20pt;
+                color: white;
+                font-family : Broadway;
+                margin-top: -5px;
+                margin-left: 119px;
+            }
+        }
+        
+        .seventeenth-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 19.5%;      
+            }
+        }
+        
+        .eighteenth-p {
+            p {       
+                margin-top: -25px;
+                float: left;
+                font-size: 15pt;
+                color:  #e6d300;
+                font-family : Broadway;
+                margin-left: 22%;      
+            }
+        }
+    }
+
+    .prize-pool {
+        display: none;
+    }
+    
+    .responsive-twitch-stream-headline {
+        position:absolute;
+        left:0px;
+        top:2182px;
+        width:650px;
+        height:78px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-twitch-stream-headline.png");
+        
+        h1 {
+            text-align: center;
+            vertical-align: middle;
+            line-height: 20px;
+            font-family : Broadway;
+            font-size : 25pt;
+            color: #00d07a;
+        }
+    }
+
+    .twitch-stream-headline {
+        display: none;
+    }
+    
+    .responsive-twitch-stream {
+        position:absolute;
+        left:0px;
+        top:2260px;
+        width:650px;
+        height:587px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-twitch-stream.png");
+
+        .responsive-twitch-stream-video {
+            margin-left: 75px;
+            margin-top: 5px;
+        }
+
+        .responsive-twitch-chat {
+            margin-left: 75px;
+        }
+    }
+
+    .twitch-stream-and-chat {
+        display: none;
+    }
+    
+    .responsive-game-headline {
+        position:absolute;
+        left:0px;
+        top:2847px;
+        width:650px;
+        height:73px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-game-headline.png");
+        
+        h1 {
+            text-align: center;
+            vertical-align: middle;
+            line-height: 20px;
+            font-family : Broadway;
+            font-size : 25pt;
+            color: #00d07a;
+        }
+    }
+
+    .game-headline {
+        display: none;
+    }
+    
+    .responsive-game {
+        position:absolute;
+        left:0px;
+        top:2920px;
+        width:650px;
+        height:176px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-game.png");
+
+        .sound-image {
+            float:left;
+            margin-left: 10px;
+            margin-top: 10px;
+            cursor:pointer;
+        }
+
+        .game-description {
+            float:left;
+            height: 400px;
+            width: 200px;
+            font-size: 11pt;
+            color: white;
+            margin-top: 15px;
+            margin-left: -80px;
+            
+            p {
+                text-align: center;
+                font-family : Broadway;
+            }
+        }
+    
+        .responsive-hero-images-container {
+            float:left;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        
+        .responsive-heroes-first-row {
+            clear: both;
+        }
+        
+        .responsive-heroes-second-row {
+            clear: both;
+        }
+        
+        .responsive-heroes-third-row {
+            clear: both;
+        }
+        
+        .responsive-hero-antimage {
+            float:left;
+            cursor:pointer;
+        }
+        
+        .responsive-hero-luna {
+            float:left;
+            margin-left: 10px;
+            cursor:pointer;
+        }
+        
+        .responsive-hero-spiritbreaker {   
+            float:left;
+            margin-left: 10px;
+            cursor:pointer;
+        }
+        
+        .responsive-hero-crystalmaiden {
+            margin-top: 10px;
+            float:left;
+            cursor:pointer;
+        }
+        
+        .responsive-hero-omniknight {
+            margin-top: 10px;
+            float: left;
+            margin-left: 10px;
+            cursor:pointer;
+        }
+        
+        .responsive-hero-templarassassin {
+            margin-top: 10px;
+            float: left;
+            margin-left: 10px;
+            cursor:pointer;
+        }
+        
+        .responsive-hero-kunkka {
+            margin-top: 10px;
+            float: left;
+            cursor:pointer;
+        }
+        
+        .responsive-hero-queenofpain {
+            margin-top: 10px;
+            float: left;
+            margin-left: 10px;
+            cursor:pointer;
+        }
+        
+        .responsive-hero-zeus {
+            margin-top: 10px;
+            float: left;
+            margin-left: 10px;
+            cursor:pointer;
+        }
+        
+    }
+
+    .game {
+        display: none;
+    }
+    
+    .responsive-find-us-headline {
+        position:absolute;
+        left:0px;
+        top:3096px;
+        width:650px;
+        height:71px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-find-us-headline.png");
+        
+        h1 {
+            text-align: center;
+            vertical-align: middle;
+            line-height: 20px;
+            font-family : Broadway;
+            font-size : 25pt;
+            color: #00d07a;
+        }
+    }
+
+    .find-us-headline {
+        display: none;
+    }
+    
+    .responsive-find-us {
+        position:absolute;
+        left:0px;
+        top:3167px;
+        width:650px;
+        height:949px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-find-us.png");
+
+        .responsive-google-map {
+            margin-top: 10px;
+            margin-left: -140px;
+        }
+
+        .find-us-logo {
+            margin-top: -75px;
+            margin-left: 225px;
+        }
+
+        .responsive-contact-us {
+            text-align: center;
+            vertical-align: middle;
+            font-family : Broadway;
+            font-size : 22pt;
+            color: white;
+            clear: both;
+        }
+    }
+
+    .find-us {
+        display: none;
+    }
+    
+    .responsive-footer {
+        position:absolute;
+        left:0px;
+        top:4116px;
+        width:650px;
+        height:108px;
+        background: url("../backgrounds/responsive-backgrounds/responsive-footer.png");
+
+        .purpose-text {
+            width: 250px;
+            margin-left: 25px;
+            margin-top: 0px;
+            float:left;
+            text-align: center;
+            vertical-align: middle;
+            font-family : Broadway;
+            font-size : 15pt;
+            color: white;
+        }
+        
+        .social-icons {
+            float: left;
+            margin-left: 25px;
+            margin-top: 25px;
+
+                    
+        .youtube {
+            float: left;
+        }
+        
+        .twitter {
+            float: left;
+            margin-left: 20px;
+        }
+        
+        .facebook {
+            float: left;
+            margin-left: 20px;
+        }
+        }
+
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .responsive-contact-form-div {
+        position:absolute;
+        left:10px;
+        top:10px;
+        width:630px;
+        height:480px;
+        background-color: #c4c4c4;
+        
+        .responsive-contact-form-close-button {
+            text-align:right;
+            cursor:pointer;
+            font-size: 20pt;
+        }
+        
+        .responsive-contact-form-title {
+            margin-top: -10px;
+            text-align:center;
+            font-size: 30pt; 
+        }
+        
+        input[type="email"], input[type="text"], textarea
+        {
+            border: 1px solid #000;
+            color : black;
+            font-family : Broadway;
+            font-size: 18pt; 
+            margin-left: 3px;
+            margin-top: 3px;
+            margin-right: 3px;
+            height: 50px;
+            width:98%;
+        }
+        
+        .responsive-send-message-button {
+            text-align:center;
+            font-size: 20pt; 
+            cursor:pointer;
+        }
+        
+        textarea {
+            border: 1px solid #000;
+            color : black;
+            font-family : Broadway;
+            font-size: 18pt; 
+            margin:auto;
+            margin-left: 3px;
+            margin-top: 3px;
+            height: 150px;
+            width:98%;
+        }
+    }
+
+    .responsive-canvas-container
+    {
+        display:none;
+        float:left;
+    }
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 1920px)
+{
+    .responsive-main-menu {
+        display: none;
+    }
+
+    .responsive-home-and-about {
+        display: none;
+    }
+
+    .responsive-teams-headline {
+        display: none;
+    }
+
+    .responsive-teams {
+        display: none;
+    }
+
+    .responsive-prize-pool-headline {
+        display: none;
+    }
+
+    .responsive-prize-pool {
+        display: none;
+    }
+
+    .responsive-twitch-stream {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+
+    .responsive-twitch-stream-video {
+        display: none;
+    }
+
+    .container {
+        margin: 0 auto;
+        // For grow & shrink as per screen size change values as per your requirements
+        width: 100%;
+        height: 100%;
+    }
+
+    .responsive-menu-items{
+        display:none;
+    }
+
+    .responsive-find-us {
+        display:none;
+    }
+}
+

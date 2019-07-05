@@ -1,0 +1,103 @@
+.find-us-headline {
+    position:absolute;
+	left:0px;
+	top:3106px;
+	width:1400px;
+    height:100px;
+    background: url("../backgrounds/find-us-headline.png");
+
+    h1 {
+        text-align: center;
+        vertical-align: middle;
+        line-height: 20px;
+        font-family : Broadway;
+        font-size : 45pt;
+        color: #00d07a;
+    }
+}
+
+.find-us {
+    position:absolute;
+	left:0px;
+	top:3205px;
+	width:1400px;
+    height:609px;
+    background: url("../backgrounds/find-us.png");
+}
+
+.google-map {
+    float:left;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+
+.find-us-info {
+    float:left;
+    margin-left: 125px;
+    margin-top: 10px;
+}
+
+.find-us-logo {
+    margin-left: 70px;
+}
+
+.when-p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    font-family : Broadway;
+    font-size : 30pt;
+    color: white;
+}
+
+.when-p-a {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 0px;
+    font-family : Broadway;
+    font-size : 25pt;
+    color: #e6d300;
+}
+
+.where-p {
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    font-family : Broadway;
+    font-size : 30pt;
+    color: white;
+}
+
+.where-p-a1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 0px;
+    font-family : Broadway;
+    font-size : 25pt;
+    color: #e6d300;
+}
+
+.where-p-a2 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 0px;
+    font-family : Broadway;
+    font-size : 22pt;
+    color: white;
+}
+
+.contact-us {
+    text-align: center;
+    vertical-align: middle;
+    font-family : Broadway;
+    font-size : 22pt;
+    color: white;
+    clear: both;
+}
+
+.hyperlink-pointer:hover
+{
+	cursor:pointer;
+}

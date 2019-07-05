@@ -1,0 +1,53 @@
+
+.logo-and-main-menu {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1400px;
+	height:203px;
+    background: url("../backgrounds/logo-and-main-menu.png");
+}
+
+
+.logo-div {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.menu-items
+{
+    float: left;
+    display: table;
+    margin-top: 51px;
+    margin-left: 40px;
+	
+	ul
+	{
+		list-style-type: none;
+		
+		li
+		{
+			float: left;
+			
+			a 
+			{
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 16px 16px;
+				text-decoration: none;
+				font-family : Broadway;
+				font-size : 20pt;
+				height: 60%;
+			}
+
+			a:hover {
+				border-bottom: 5px solid #e6d300;
+			}			
+		}
+	}
+}
+
+
